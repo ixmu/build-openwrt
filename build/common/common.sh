@@ -370,3 +370,6 @@ if [ -n "$(ls -A "${Home}/Plug-in" 2>/dev/null)" ]; then
 fi
 rm -rf {CHONGTU,Plug-in,Plugin,Chajianlibiao}
 }
+Diy_notice(){
+echo "你好"
+}
