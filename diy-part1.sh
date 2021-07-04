@@ -17,5 +17,5 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # Add Openwrt Package
-git clone https://github.com/281677160/openwrt-package package/openwrt-package
 git clone https://github.com/muink/luci-app-change-mac package/luci-app-change-mac
+git clone https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
