@@ -1,0 +1,25 @@
+/home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-5.4.128/scripts/dtc/dtc -O dtb -i../dts/ -Wno-unit_address_vs_reg -Wno-simple_bus_reg -Wno-unit_address_format -Wno-pci_bridge -Wno-pci_device_bus_num -Wno-pci_device_reg -Wno-avoid_unnecessary_addr_size -Wno-alias_paths -Wno-graph_child_address -Wno-graph_port -Wno-unique_unit_address   -o /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6700-v2.dtb /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6700-v2.dtb.tmp
+/home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-5.4.128/scripts/dtc/dtc -O dtb -i../dts/ -Wno-unit_address_vs_reg -Wno-simple_bus_reg -Wno-unit_address_format -Wno-pci_bridge -Wno-pci_device_bus_num -Wno-pci_device_reg -Wno-avoid_unnecessary_addr_size -Wno-alias_paths -Wno-graph_child_address -Wno-graph_port -Wno-unique_unit_address   -o /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6800.dtb /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6800.dtb.tmp
+/home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-5.4.128/scripts/dtc/dtc -O dtb -i../dts/ -Wno-unit_address_vs_reg -Wno-simple_bus_reg -Wno-unit_address_format -Wno-pci_bridge -Wno-pci_device_bus_num -Wno-pci_device_reg -Wno-avoid_unnecessary_addr_size -Wno-alias_paths -Wno-graph_child_address -Wno-graph_port -Wno-unique_unit_address   -o /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_wac104.dtb /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_wac104.dtb.tmp
+Error: ../dts/mt7621_netgear_sercomm_bzv.dtsi:126.1-2 syntax error
+FATAL ERROR: Unable to parse input tree
+make[5]: *** [Makefile:207: /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6700-v2.dtb] Error 1
+make[5]: *** Waiting for unfinished jobs....
+Error: ../dts/mt7621_netgear_sercomm_bzv.dtsi:126.1-2 syntax error
+FATAL ERROR: Unable to parse input tree
+make[5]: *** [Makefile:207: /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6800.dtb] Error 1
+rm -f /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_wac104.dtb.tmp
+/home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-5.4.128/scripts/dtc/dtc -O dtb -i../dts/ -Wno-unit_address_vs_reg -Wno-simple_bus_reg -Wno-unit_address_format -Wno-pci_bridge -Wno-pci_device_bus_num -Wno-pci_device_reg -Wno-avoid_unnecessary_addr_size -Wno-alias_paths -Wno-graph_child_address -Wno-graph_port -Wno-unique_unit_address   -o /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6850.dtb /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6850.dtb.tmp
+rm -f /home/peng/Desktop/lede/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/image-mt7621_netgear_r6850.dtb.tmp
+make[5]: Leaving directory '/home/peng/Desktop/lede/target/linux/ramips/image'
+make[4]: *** [Makefile:24: install] Error 2
+make[4]: Leaving directory '/home/peng/Desktop/lede/target/linux/ramips'
+make[3]: *** [Makefile:11: install] Error 2
+make[3]: Leaving directory '/home/peng/Desktop/lede/target/linux'
+time: target/linux/install#66.29#20.03#73.64
+    ERROR: target/linux failed to build.
+make[2]: *** [target/Makefile:25: target/linux/install] Error 1
+make[2]: Leaving directory '/home/peng/Desktop/lede'
+make[1]: *** [target/Makefile:19: /home/peng/Desktop/lede/staging_dir/target-mipsel_24kc_musl/stamp/.target_install] Error 2
+make[1]: Leaving directory '/home/peng/Desktop/lede'
+make: *** [/home/peng/Desktop/lede/include/toplevel.mk:230：world] 错误 2

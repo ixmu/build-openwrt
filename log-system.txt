@@ -1,0 +1,833 @@
+Sun Jul 11 01:26:33 2021 kern.notice kernel: [   36.081072] random: crng init done
+Sun Jul 11 01:26:34 2021 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sun Jul 11 01:26:34 2021 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sun Jul 11 01:26:34 2021 daemon.info dnsmasq[2270]: Connected to system UBus
+Sun Jul 11 01:26:35 2021 kern.info kernel: [   66.635850] ralink_soc_eth 1e100000.ethernet eth0: port 2 link down
+Sun Jul 11 01:26:38 2021 kern.info kernel: [   69.964557] ralink_soc_eth 1e100000.ethernet eth0: port 2 link up
+Sun Jul 11 01:26:44 2021 daemon.notice wpa_supplicant[2500]: Successfully initialized wpa_supplicant
+Sun Jul 11 01:26:46 2021 user.notice : Added device handler type: 8021ad
+Sun Jul 11 01:26:46 2021 user.notice : Added device handler type: 8021q
+Sun Jul 11 01:26:46 2021 user.notice : Added device handler type: macvlan
+Sun Jul 11 01:26:46 2021 user.notice : Added device handler type: veth
+Sun Jul 11 01:26:46 2021 user.notice : Added device handler type: bridge
+Sun Jul 11 01:26:46 2021 user.notice : Added device handler type: Network device
+Sun Jul 11 01:26:46 2021 user.notice : Added device handler type: tunnel
+Sun Jul 11 01:26:47 2021 daemon.notice procd: /etc/rc.d/S25jd-dailybonus: Command failed: Not found
+Sun Jul 11 01:26:47 2021 cron.err crond[2664]: crond (busybox 1.33.1) started, log level 5
+Sun Jul 11 01:26:48 2021 daemon.err block: No "mount.ubi" utility available
+Sun Jul 11 01:26:48 2021 daemon.err block: mounting /dev/mtdblock3 (ubi) as /mnt/mtdblock3 failed (25) - Not a tty
+Sun Jul 11 01:26:49 2021 cron.err crond[2838]: crond (busybox 1.33.1) started, log level 5
+Sun Jul 11 01:26:49 2021 daemon.notice procd: /etc/rc.d/S50autoreboot: Auto REBOOT has started.
+Sun Jul 11 01:26:49 2021 kern.info kernel: [   80.834609] ralink_soc_eth 1e100000.ethernet: PPE started
+Sun Jul 11 01:26:49 2021 kern.err kernel: [   80.845471] debugfs: Directory 'mtk_ppe' with parent '/' already present!
+Sun Jul 11 01:26:49 2021 kern.info kernel: [   80.867431] br-lan: port 1(eth0.1) entered blocking state
+Sun Jul 11 01:26:49 2021 kern.info kernel: [   80.878366] br-lan: port 1(eth0.1) entered disabled state
+Sun Jul 11 01:26:49 2021 kern.info kernel: [   80.889936] device eth0.1 entered promiscuous mode
+Sun Jul 11 01:26:49 2021 kern.info kernel: [   80.899572] device eth0 entered promiscuous mode
+Sun Jul 11 01:26:49 2021 kern.info kernel: [   80.913723] br-lan: port 1(eth0.1) entered blocking state
+Sun Jul 11 01:26:49 2021 kern.info kernel: [   80.924598] br-lan: port 1(eth0.1) entered forwarding state
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'lan' is enabled
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'lan' is setting up now
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'lan' is now up
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: bridge 'br-lan' link is up
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'lan' has link connectivity
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: VLAN 'eth0.1' link is up
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'loopback' is enabled
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'loopback' is setting up now
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'loopback' is now up
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'wan6' is enabled
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Network device 'eth0' link is up
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Network device 'lo' link is up
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'loopback' has link connectivity
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: VLAN 'eth0.2' link is up
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'wan6' has link connectivity
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: Interface 'wan6' is setting up now
+Sun Jul 11 01:26:49 2021 daemon.err odhcp6c[3002]: Failed to send RS (Address not available)
+Sun Jul 11 01:26:49 2021 daemon.notice netifd: wan (3009): udhcpc: started, v1.33.1
+Sun Jul 11 01:26:50 2021 daemon.notice netifd: wan (3009): udhcpc: sending discover
+Sun Jul 11 01:26:50 2021 daemon.err odhcp6c[3002]: Failed to send SOLICIT message to ff02::1:2 (Address not available)
+Sun Jul 11 01:26:50 2021 user.notice ocserv: Generating CA certificate...
+Sun Jul 11 01:26:50 2021 daemon.err odhcpd[2754]: Failed to send to ff02::1%lan@br-lan (Address not available)
+Sun Jul 11 01:26:50 2021 authpriv.warn dropbear[3188]: Failed listening on '22': Error listening: Address not available
+Sun Jul 11 01:26:50 2021 authpriv.info dropbear[3188]: Not backgrounding
+Sun Jul 11 01:26:51 2021 kern.info kernel: [   82.452255] IPv6: ADDRCONF(NETDEV_CHANGE): br-lan: link becomes ready
+Sun Jul 11 01:26:51 2021 daemon.err odhcp6c[3002]: Failed to send SOLICIT message to ff02::1:2 (Address not available)
+Sun Jul 11 01:26:52 2021 daemon.notice hostapd: Configuration file: /var/run/hostapd-phy1.conf (phy wlan1) --> new PHY
+Sun Jul 11 01:26:53 2021 daemon.notice netifd: wan (3009): udhcpc: sending discover
+Sun Jul 11 01:26:54 2021 kern.info kernel: [   85.666787] br-lan: port 2(wlan1) entered blocking state
+Sun Jul 11 01:26:54 2021 kern.info kernel: [   85.677412] br-lan: port 2(wlan1) entered disabled state
+Sun Jul 11 01:26:54 2021 kern.info kernel: [   85.688510] device wlan1 entered promiscuous mode
+Sun Jul 11 01:26:54 2021 kern.info kernel: [   85.698213] br-lan: port 2(wlan1) entered blocking state
+Sun Jul 11 01:26:54 2021 kern.info kernel: [   85.708830] br-lan: port 2(wlan1) entered forwarding state
+Sun Jul 11 01:26:54 2021 daemon.notice hostapd: wlan1: interface state UNINITIALIZED->COUNTRY_UPDATE
+Sun Jul 11 01:26:54 2021 kern.info kernel: [   85.720393] br-lan: port 2(wlan1) entered disabled state
+Sun Jul 11 01:26:54 2021 daemon.notice hostapd: wlan1: interface state COUNTRY_UPDATE->HT_SCAN
+Sun Jul 11 01:26:54 2021 daemon.notice hostapd: Configuration file: /var/run/hostapd-phy0.conf (phy wlan0) --> new PHY
+Sun Jul 11 01:26:55 2021 daemon.info dnsmasq[3507]: Connected to system UBus
+Sun Jul 11 01:26:55 2021 kern.info kernel: [   87.086169] br-lan: port 3(wlan0) entered blocking state
+Sun Jul 11 01:26:55 2021 kern.info kernel: [   87.096830] br-lan: port 3(wlan0) entered disabled state
+Sun Jul 11 01:26:55 2021 kern.info kernel: [   87.108271] device wlan0 entered promiscuous mode
+Sun Jul 11 01:26:55 2021 daemon.notice hostapd: wlan0: interface state UNINITIALIZED->COUNTRY_UPDATE
+Sun Jul 11 01:26:55 2021 kern.info kernel: [   87.125643] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Sun Jul 11 01:26:55 2021 kern.info kernel: [   87.138869] br-lan: port 3(wlan0) entered blocking state
+Sun Jul 11 01:26:55 2021 kern.info kernel: [   87.149560] br-lan: port 3(wlan0) entered forwarding state
+Sun Jul 11 01:26:55 2021 daemon.notice hostapd: wlan0: interface state COUNTRY_UPDATE->ENABLED
+Sun Jul 11 01:26:55 2021 daemon.notice hostapd: wlan0: AP-ENABLED
+Sun Jul 11 01:26:56 2021 daemon.notice netifd: Network device 'wlan1' link is up
+Sun Jul 11 01:26:56 2021 kern.info kernel: [   88.250466] IPv6: ADDRCONF(NETDEV_CHANGE): wlan1: link becomes ready
+Sun Jul 11 01:26:56 2021 kern.info kernel: [   88.263545] br-lan: port 2(wlan1) entered blocking state
+Sun Jul 11 01:26:56 2021 kern.info kernel: [   88.274203] br-lan: port 2(wlan1) entered forwarding state
+Sun Jul 11 01:26:56 2021 daemon.notice netifd: wan (3009): udhcpc: sending discover
+Sun Jul 11 01:26:56 2021 daemon.notice hostapd: wlan1: interface state HT_SCAN->ENABLED
+Sun Jul 11 01:26:56 2021 daemon.notice hostapd: wlan1: AP-ENABLED
+Sun Jul 11 01:26:57 2021 user.notice ocserv: Generating server certificate...
+Sun Jul 11 01:26:57 2021 daemon.notice netifd: Network device 'wlan0' link is up
+Sun Jul 11 01:27:03 2021 user.err : error connecting to sec-mod socket 'ocserv-socket.e36a51d6': No such file or directory
+Sun Jul 11 01:27:03 2021 daemon.info ocserv[3697]: sec-mod: reading supplemental config from files
+Sun Jul 11 01:27:03 2021 daemon.info ocserv[3697]: sec-mod: sec-mod initialized (socket: /var/lib/ocserv/ocserv-socket.e36a51d6.0)
+Sun Jul 11 01:27:08 2021 user.notice mwan3[2909]: Using firewall mask 0x3F00
+Sun Jul 11 01:27:08 2021 user.notice mwan3[2909]: Max interface count is 60
+Sun Jul 11 01:27:08 2021 daemon.notice procd: /etc/rc.d/S90kms: KMS Server has started.
+Sun Jul 11 01:27:08 2021 daemon.notice procd: /etc/rc.d/S90kms: uci: Entry not found
+Sun Jul 11 01:27:09 2021 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sun Jul 11 01:27:09 2021 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sun Jul 11 01:27:09 2021 daemon.notice procd: /etc/rc.d/S90kms: udhcpc: started, v1.33.1
+Sun Jul 11 01:27:09 2021 daemon.notice procd: /etc/rc.d/S90kms: udhcpc: sending discover
+Sun Jul 11 01:27:10 2021 user.notice firewall: Reloading firewall due to ifup of lan (br-lan)
+Sun Jul 11 01:27:10 2021 user.notice nlbwmon: Reloading nlbwmon due to ifup of lan (br-lan)
+Sun Jul 11 01:27:13 2021 daemon.notice procd: /etc/rc.d/S90kms: udhcpc: no lease, failing
+Sun Jul 11 01:27:13 2021 kern.info kernel: [  105.328998] ralink_soc_eth 1e100000.ethernet eth0: port 2 link down
+Sun Jul 11 01:27:13 2021 daemon.info dnsmasq[4824]: Connected to system UBus
+Sun Jul 11 01:27:14 2021 kern.alert kernel: [  105.606367] fast-classifier (PBR safe v2.1.4a): starting up
+Sun Jul 11 01:27:14 2021 kern.alert kernel: [  105.617718] fast-classifier: registered
+Sun Jul 11 01:27:14 2021 daemon.notice procd: /etc/rc.d/S90turboacc: net.ipv4.tcp_congestion_control = cubic
+Sun Jul 11 01:27:14 2021 daemon.notice procd: /etc/rc.d/S90turboacc: killall: dnscache: no process killed
+Sun Jul 11 01:27:14 2021 daemon.notice procd: /etc/rc.d/S90turboacc: sh: you need to specify whom to kill
+Sun Jul 11 01:27:14 2021 daemon.notice procd: /etc/rc.d/S90turboacc: Stop DNS Caching
+Sun Jul 11 01:27:14 2021 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sun Jul 11 01:27:14 2021 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sun Jul 11 01:27:18 2021 daemon.info dnsmasq[5028]: Connected to system UBus
+Sun Jul 11 01:27:18 2021 daemon.notice procd: /etc/rc.d/S90turboacc: DNSMASQ change
+Sun Jul 11 01:27:20 2021 user.notice root: iptvhelper: starting
+Sun Jul 11 01:27:20 2021 daemon.notice procd: /etc/rc.d/S95iptvhelper: iptvhelper: starting
+Sun Jul 11 01:27:20 2021 daemon.notice procd: /etc/rc.d/S96appfilter: #class chat
+Sun Jul 11 01:27:20 2021 daemon.notice procd: /etc/rc.d/S96appfilter: #class game
+Sun Jul 11 01:27:21 2021 daemon.notice procd: /etc/rc.d/S96appfilter: #class video
+Sun Jul 11 01:27:21 2021 daemon.notice procd: /etc/rc.d/S96appfilter: #class shopping
+Sun Jul 11 01:27:21 2021 daemon.notice procd: /etc/rc.d/S96appfilter: #class music
+Sun Jul 11 01:27:21 2021 daemon.notice procd: /etc/rc.d/S96appfilter: #class employee
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: #class download
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: #class website
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: ok
+Sun Jul 11 01:27:22 2021 daemon.err insmod: module is already loaded - oaf
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: reload appfilter rule...
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: clean appfilter rule...
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: config json str={ "op": 3, "data": { } }
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid_list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid_list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid_list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid_list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid_list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid_list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid_list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid_list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: config json str={ "op": 1, "data": { "apps": [ ] } }
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid list=
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: appid=:
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: config json str={ "op": 4, "data": { "mac_list": [ ":" ] } }
+Sun Jul 11 01:27:22 2021 kern.warn kernel: [  114.301922] mac format error: :
+Sun Jul 11 01:27:22 2021 daemon.notice procd: /etc/rc.d/S96appfilter: json str={ "op": 4, "data": { "mac_list": [ ":" ] } }
+Sun Jul 11 01:27:23 2021 daemon.notice procd: /etc/rc.d/S96led: setting up led WAN
+Sun Jul 11 01:27:23 2021 kern.warn kernel: [  114.689436] recv user msg
+Sun Jul 11 01:27:23 2021 kern.warn kernel: [  114.694712] oaf msg handle, action = 0
+Sun Jul 11 01:27:23 2021 kern.warn kernel: [  114.702339] module init.........
+Sun Jul 11 01:27:23 2021 daemon.notice procd: /etc/rc.d/S96led: setting up led LAN1
+Sun Jul 11 01:27:24 2021 daemon.notice procd: /etc/rc.d/S96led: setting up led LAN2
+Sun Jul 11 01:27:24 2021 daemon.notice procd: /etc/rc.d/S96led: setting up led LAN3
+Sun Jul 11 01:27:25 2021 daemon.notice procd: /etc/rc.d/S96led: setting up led LAN4
+Sun Jul 11 01:27:26 2021 kern.info kernel: [  118.174264] ralink_soc_eth 1e100000.ethernet eth0: port 2 link up
+Sun Jul 11 01:27:27 2021 cron.err crond[6736]: crond (busybox 1.33.1) started, log level 5
+Sun Jul 11 01:27:28 2021 user.notice nlbwmon: Reloading nlbwmon due to ifup of loopback (lo)
+Sun Jul 11 01:27:29 2021 daemon.notice procd: /etc/rc.d/S99dnsfilter: 2021-07-11 01:27:29 [DNSFilter is disabled]
+Sun Jul 11 01:27:30 2021 daemon.info urandom_seed[7161]: Seed saved (/etc/urandom.seed)
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]: ttyd 1.6.3 (libwebsockets 4.1.6-20200915-578-gaa73053a7)
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]: tty configuration:
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]:   start command: /usr/libexec/login.sh
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]:   close signal: SIGHUP (1)
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]:   terminal type: xterm-256color
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]: LWS: 4.1.6-20200915-578-gaa73053a7, loglevel 7
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]: NET CLI SRV H1 H2 WS IPV6-off
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]:    /usr/lib/libwebsockets-evlib_uv.so
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]:  Using foreign event loop...
+Sun Jul 11 01:27:31 2021 daemon.notice ttyd[7121]:  Listening on port: 7681
+Sun Jul 11 01:27:31 2021 user.info wsdd2[7292]: starting.
+Sun Jul 11 01:27:31 2021 daemon.notice procd: /etc/rc.d/S99zerotier: disabled in config
+Sun Jul 11 01:27:31 2021 daemon.info procd: - init complete -
+Sun Jul 11 01:27:31 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:28:36 2021 daemon.notice netifd: Interface 'wan6' is now down
+Sun Jul 11 01:28:52 2021 daemon.notice netifd: Interface 'wan6' has link connectivity loss
+Sun Jul 11 01:28:52 2021 daemon.notice netifd: wan (3009): udhcpc: received SIGTERM
+Sun Jul 11 01:28:52 2021 daemon.notice netifd: wan (3009): udhcpc: entering released state
+Sun Jul 11 01:28:52 2021 daemon.notice netifd: wan (3009): Command failed: Permission denied
+Sun Jul 11 01:28:52 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:28:52 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:28:53 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:28:53 2021 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Jul 11 01:28:53 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:28:53 2021 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Jul 11 01:28:53 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:28:53 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:28:53 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:28:53 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:28:53 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:28:53 2021 daemon.info pppd[8223]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:28:53 2021 daemon.info pppd[8223]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:28:54 2021 daemon.notice pppd[8223]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:28:54 2021 daemon.info pppd[8223]: PPP session is 17220
+Sun Jul 11 01:28:54 2021 daemon.warn pppd[8223]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:28:54 2021 kern.info kernel: [  205.506296] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:28:54 2021 daemon.info pppd[8223]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:28:54 2021 daemon.info pppd[8223]: Using interface pppoe-wan
+Sun Jul 11 01:28:54 2021 daemon.notice pppd[8223]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:28:54 2021 daemon.info pppd[8223]: syncppp not active
+Sun Jul 11 01:28:54 2021 daemon.info pppd[8223]: CHAP authentication failed: RADIUS-0011:The current number of connections has reached the set number of connections
+Sun Jul 11 01:28:54 2021 daemon.err pppd[8223]: CHAP authentication failed
+Sun Jul 11 01:28:54 2021 daemon.notice pppd[8223]: Modem hangup
+Sun Jul 11 01:28:54 2021 daemon.notice pppd[8223]: Connection terminated.
+Sun Jul 11 01:28:54 2021 daemon.info pppd[8223]: Sent PADT
+Sun Jul 11 01:28:54 2021 daemon.info pppd[8223]: Exit.
+Sun Jul 11 01:28:54 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:28:54 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:28:54 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:28:54 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:28:54 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:28:54 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:28:54 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:28:54 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:28:54 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:28:55 2021 daemon.notice pppd[8637]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: PPP session is 4848
+Sun Jul 11 01:28:55 2021 daemon.warn pppd[8637]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:28:55 2021 kern.info kernel: [  206.661626] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: Using interface pppoe-wan
+Sun Jul 11 01:28:55 2021 daemon.notice pppd[8637]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: syncppp not active
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: CHAP authentication failed: RADIUS-0011:The current number of connections has reached the set number of connections
+Sun Jul 11 01:28:55 2021 daemon.err pppd[8637]: CHAP authentication failed
+Sun Jul 11 01:28:55 2021 daemon.notice pppd[8637]: Modem hangup
+Sun Jul 11 01:28:55 2021 daemon.notice pppd[8637]: Connection terminated.
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: Sent PADT
+Sun Jul 11 01:28:55 2021 user.notice root: iptvhelper: reloading
+Sun Jul 11 01:28:55 2021 daemon.info pppd[8637]: Exit.
+Sun Jul 11 01:28:55 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:28:55 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:28:55 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:28:55 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:28:55 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:28:56 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:28:56 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:28:56 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:28:56 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:28:56 2021 daemon.info pppd[8922]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:28:56 2021 daemon.info pppd[8922]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:28:56 2021 daemon.notice pppd[8922]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:28:56 2021 user.notice root: iptvhelper: stopped
+Sun Jul 11 01:28:56 2021 user.notice root: iptvhelper: starting
+Sun Jul 11 01:28:57 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:01 2021 daemon.info pppd[8922]: PPP session is 16549
+Sun Jul 11 01:29:01 2021 daemon.warn pppd[8922]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:29:01 2021 kern.info kernel: [  212.932755] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:29:01 2021 daemon.info pppd[8922]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:29:01 2021 daemon.info pppd[8922]: Using interface pppoe-wan
+Sun Jul 11 01:29:01 2021 daemon.notice pppd[8922]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:29:01 2021 daemon.info pppd[8922]: syncppp not active
+Sun Jul 11 01:29:01 2021 daemon.notice pppd[8922]: Modem hangup
+Sun Jul 11 01:29:01 2021 daemon.notice pppd[8922]: Connection terminated.
+Sun Jul 11 01:29:01 2021 daemon.info pppd[8922]: Sent PADT
+Sun Jul 11 01:29:01 2021 daemon.info pppd[8922]: Exit.
+Sun Jul 11 01:29:01 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:01 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:02 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:02 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:02 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:02 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:02 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:02 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:02 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:02 2021 daemon.info pppd[9347]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:02 2021 daemon.info pppd[9347]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:02 2021 daemon.notice pppd[9347]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:29:03 2021 authpriv.info dropbear[9465]: Child connection from 192.168.1.161:4881
+Sun Jul 11 01:29:05 2021 authpriv.notice dropbear[9465]: Password auth succeeded for 'root' from 192.168.1.161:4881
+Sun Jul 11 01:29:06 2021 daemon.info hostapd: wlan0: STA 6e:94:00:02:a2:53 IEEE 802.11: authenticated
+Sun Jul 11 01:29:06 2021 daemon.info hostapd: wlan0: STA 6e:94:00:02:a2:53 IEEE 802.11: associated (aid 1)
+Sun Jul 11 01:29:06 2021 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 6e:94:00:02:a2:53
+Sun Jul 11 01:29:06 2021 daemon.info hostapd: wlan0: STA 6e:94:00:02:a2:53 RADIUS: starting accounting session 59C522F51E4B5650
+Sun Jul 11 01:29:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Sun Jul 11 01:29:07 2021 daemon.notice netifd: VLAN 'eth0.2' link is down
+Sun Jul 11 01:29:07 2021 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Jul 11 01:29:07 2021 daemon.err pppd[9347]: error receiving pppoe packet: Network is down
+Sun Jul 11 01:29:07 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:07 2021 daemon.err pppd[9347]: select (waitForPADO): Interrupted system call
+Sun Jul 11 01:29:07 2021 daemon.warn pppd[9347]: Timeout waiting for PADO packets
+Sun Jul 11 01:29:07 2021 daemon.err pppd[9347]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:29:07 2021 daemon.info pppd[9347]: Exit.
+Sun Jul 11 01:29:07 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:07 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:07 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:07 2021 daemon.notice netifd: VLAN 'eth0.2' link is up
+Sun Jul 11 01:29:07 2021 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Jul 11 01:29:07 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:07 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:07 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:07 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:07 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:07 2021 daemon.info pppd[9569]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:07 2021 daemon.info pppd[9569]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:07 2021 daemon.notice pppd[9569]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:29:07 2021 daemon.info pppd[9569]: PPP session is 2431
+Sun Jul 11 01:29:07 2021 daemon.warn pppd[9569]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:29:07 2021 kern.info kernel: [  219.303069] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:29:07 2021 daemon.info pppd[9569]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:29:07 2021 daemon.info pppd[9569]: Using interface pppoe-wan
+Sun Jul 11 01:29:07 2021 daemon.notice pppd[9569]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:29:07 2021 daemon.info pppd[9569]: syncppp not active
+Sun Jul 11 01:29:08 2021 daemon.notice pppd[9569]: Modem hangup
+Sun Jul 11 01:29:08 2021 daemon.notice pppd[9569]: Connection terminated.
+Sun Jul 11 01:29:08 2021 daemon.info pppd[9569]: Sent PADT
+Sun Jul 11 01:29:08 2021 daemon.info pppd[9569]: Exit.
+Sun Jul 11 01:29:08 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:08 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:08 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:08 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:08 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:08 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:08 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:08 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:08 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:08 2021 daemon.info pppd[9731]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:08 2021 daemon.info pppd[9731]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:08 2021 daemon.notice pppd[9731]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:29:10 2021 authpriv.info dropbear[9465]: Exit (root) from <192.168.1.161:4881>: Exited normally
+Sun Jul 11 01:29:18 2021 daemon.info pppd[9731]: PPP session is 15720
+Sun Jul 11 01:29:18 2021 daemon.warn pppd[9731]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:29:18 2021 kern.info kernel: [  230.223395] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:29:18 2021 daemon.info pppd[9731]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:29:18 2021 daemon.info pppd[9731]: Using interface pppoe-wan
+Sun Jul 11 01:29:18 2021 daemon.notice pppd[9731]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:29:18 2021 daemon.info pppd[9731]: syncppp not active
+Sun Jul 11 01:29:18 2021 daemon.info pppd[9731]: CHAP authentication failed: RADIUS-0011:The current number of connections has reached the set number of connections
+Sun Jul 11 01:29:18 2021 daemon.err pppd[9731]: CHAP authentication failed
+Sun Jul 11 01:29:18 2021 daemon.notice pppd[9731]: Modem hangup
+Sun Jul 11 01:29:18 2021 daemon.notice pppd[9731]: Connection terminated.
+Sun Jul 11 01:29:19 2021 daemon.info pppd[9731]: Sent PADT
+Sun Jul 11 01:29:19 2021 daemon.info pppd[9731]: Exit.
+Sun Jul 11 01:29:19 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:19 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:19 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:19 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:19 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:19 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:19 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:19 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:19 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:19 2021 daemon.info pppd[10110]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:19 2021 daemon.info pppd[10110]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:19 2021 daemon.notice pppd[10110]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:29:21 2021 daemon.err pppd[10110]: select (waitForPADO): Interrupted system call
+Sun Jul 11 01:29:21 2021 daemon.warn pppd[10110]: Timeout waiting for PADO packets
+Sun Jul 11 01:29:21 2021 daemon.err pppd[10110]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:29:21 2021 daemon.info pppd[10110]: Exit.
+Sun Jul 11 01:29:21 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:21 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:22 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:22 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:22 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:22 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:22 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:22 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:22 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:22 2021 daemon.info pppd[10357]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:22 2021 daemon.info pppd[10357]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:22 2021 daemon.notice pppd[10357]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:29:23 2021 daemon.info hostapd: wlan0: STA 24:fb:65:d2:ef:fc IEEE 802.11: authenticated
+Sun Jul 11 01:29:23 2021 daemon.info hostapd: wlan0: STA 24:fb:65:d2:ef:fc IEEE 802.11: associated (aid 2)
+Sun Jul 11 01:29:23 2021 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 24:fb:65:d2:ef:fc
+Sun Jul 11 01:29:23 2021 daemon.info hostapd: wlan0: STA 24:fb:65:d2:ef:fc RADIUS: starting accounting session C0A1815FCB985721
+Sun Jul 11 01:29:28 2021 authpriv.info dropbear[10573]: Child connection from 192.168.1.161:6660
+Sun Jul 11 01:29:29 2021 authpriv.notice dropbear[10573]: Password auth succeeded for 'root' from 192.168.1.161:6660
+Sun Jul 11 01:29:37 2021 daemon.warn pppd[10357]: Timeout waiting for PADO packets
+Sun Jul 11 01:29:37 2021 daemon.err pppd[10357]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:29:37 2021 daemon.info pppd[10357]: Exit.
+Sun Jul 11 01:29:37 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:37 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:38 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:38 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:38 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:38 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:38 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:38 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:38 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:38 2021 daemon.info pppd[10698]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:38 2021 daemon.info pppd[10698]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:38 2021 daemon.notice pppd[10698]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:29:38 2021 daemon.info pppd[10698]: PPP session is 10540
+Sun Jul 11 01:29:38 2021 daemon.warn pppd[10698]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:29:38 2021 kern.info kernel: [  249.784189] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:29:38 2021 daemon.info pppd[10698]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:29:38 2021 daemon.info pppd[10698]: Using interface pppoe-wan
+Sun Jul 11 01:29:38 2021 daemon.notice pppd[10698]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:29:38 2021 daemon.info pppd[10698]: syncppp not active
+Sun Jul 11 01:29:38 2021 daemon.notice pppd[10698]: Modem hangup
+Sun Jul 11 01:29:38 2021 daemon.notice pppd[10698]: Connection terminated.
+Sun Jul 11 01:29:38 2021 daemon.info pppd[10698]: Sent PADT
+Sun Jul 11 01:29:38 2021 daemon.info pppd[10698]: Exit.
+Sun Jul 11 01:29:38 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:38 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:38 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:38 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:38 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:38 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:38 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:38 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:38 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:39 2021 daemon.info pppd[10892]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:39 2021 daemon.info pppd[10892]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:39 2021 daemon.notice pppd[10892]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:29:42 2021 daemon.notice netifd: VLAN 'eth0.2' link is down
+Sun Jul 11 01:29:42 2021 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Jul 11 01:29:42 2021 daemon.err pppd[10892]: error receiving pppoe packet: Network is down
+Sun Jul 11 01:29:42 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:42 2021 daemon.err pppd[10892]: select (waitForPADO): Interrupted system call
+Sun Jul 11 01:29:42 2021 daemon.warn pppd[10892]: Timeout waiting for PADO packets
+Sun Jul 11 01:29:43 2021 daemon.err pppd[10892]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:29:43 2021 daemon.info pppd[10892]: Exit.
+Sun Jul 11 01:29:43 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:43 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:43 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:43 2021 daemon.notice netifd: VLAN 'eth0.2' link is up
+Sun Jul 11 01:29:43 2021 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Jul 11 01:29:43 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:43 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:43 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:43 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:43 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:43 2021 daemon.info pppd[11177]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:43 2021 daemon.info pppd[11177]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:43 2021 daemon.notice pppd[11177]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:29:58 2021 daemon.err pppd[11177]: select (waitForPADO): Interrupted system call
+Sun Jul 11 01:29:58 2021 daemon.warn pppd[11177]: Timeout waiting for PADO packets
+Sun Jul 11 01:29:58 2021 daemon.err pppd[11177]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:29:58 2021 daemon.info pppd[11177]: Exit.
+Sun Jul 11 01:29:58 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:29:58 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:29:58 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:29:58 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:29:58 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:29:58 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:29:58 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:29:58 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:29:58 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:29:58 2021 daemon.info pppd[11550]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:29:58 2021 daemon.info pppd[11550]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:29:58 2021 daemon.notice pppd[11550]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:30:13 2021 daemon.warn pppd[11550]: Timeout waiting for PADO packets
+Sun Jul 11 01:30:14 2021 daemon.err pppd[11550]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:30:14 2021 daemon.info pppd[11550]: Exit.
+Sun Jul 11 01:30:14 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:30:14 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:30:14 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:30:14 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:30:14 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:30:14 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:30:14 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:30:14 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:30:14 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:30:14 2021 daemon.info pppd[11891]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:30:14 2021 daemon.info pppd[11891]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:30:14 2021 daemon.notice pppd[11891]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:30:19 2021 daemon.info pppd[11891]: PPP session is 16445
+Sun Jul 11 01:30:19 2021 daemon.warn pppd[11891]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:30:19 2021 kern.info kernel: [  291.180528] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:30:19 2021 daemon.info pppd[11891]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:30:19 2021 daemon.info pppd[11891]: Using interface pppoe-wan
+Sun Jul 11 01:30:19 2021 daemon.notice pppd[11891]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:30:19 2021 daemon.info pppd[11891]: syncppp not active
+Sun Jul 11 01:30:19 2021 daemon.notice pppd[11891]: Modem hangup
+Sun Jul 11 01:30:19 2021 daemon.notice pppd[11891]: Connection terminated.
+Sun Jul 11 01:30:20 2021 daemon.info pppd[11891]: Sent PADT
+Sun Jul 11 01:30:20 2021 daemon.info pppd[11891]: Exit.
+Sun Jul 11 01:30:20 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:30:20 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:30:20 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:30:20 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:30:20 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:30:20 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:30:20 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:30:20 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:30:20 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:30:20 2021 daemon.info pppd[12161]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:30:20 2021 daemon.info pppd[12161]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:30:20 2021 daemon.notice pppd[12161]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:30:35 2021 daemon.warn pppd[12161]: Timeout waiting for PADO packets
+Sun Jul 11 01:30:35 2021 daemon.err pppd[12161]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:30:35 2021 daemon.info pppd[12161]: Exit.
+Sun Jul 11 01:30:35 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:30:35 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:30:36 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:30:36 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:30:36 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:30:36 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:30:36 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:30:36 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:30:36 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:30:36 2021 daemon.info pppd[12400]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:30:36 2021 daemon.info pppd[12400]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:30:36 2021 daemon.notice pppd[12400]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:30:51 2021 daemon.warn pppd[12400]: Timeout waiting for PADO packets
+Sun Jul 11 01:30:51 2021 daemon.err pppd[12400]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:30:51 2021 daemon.info pppd[12400]: Exit.
+Sun Jul 11 01:30:51 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:30:51 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:30:52 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:30:52 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:30:52 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:30:52 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:30:52 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:30:52 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:30:52 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:30:52 2021 daemon.info pppd[12642]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:30:52 2021 daemon.info pppd[12642]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:30:52 2021 daemon.notice pppd[12642]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:30:57 2021 daemon.err pppd[12642]: error receiving pppoe packet: Network is down
+Sun Jul 11 01:30:57 2021 daemon.notice netifd: VLAN 'eth0.2' link is down
+Sun Jul 11 01:30:57 2021 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Sun Jul 11 01:30:57 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:30:57 2021 daemon.err pppd[12642]: select (waitForPADO): Interrupted system call
+Sun Jul 11 01:30:57 2021 daemon.warn pppd[12642]: Timeout waiting for PADO packets
+Sun Jul 11 01:30:57 2021 daemon.err pppd[12642]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:30:57 2021 daemon.info pppd[12642]: Exit.
+Sun Jul 11 01:30:57 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:30:57 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:30:57 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:30:57 2021 daemon.notice netifd: VLAN 'eth0.2' link is up
+Sun Jul 11 01:30:57 2021 daemon.notice netifd: Interface 'wan' has link connectivity
+Sun Jul 11 01:30:57 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:30:58 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:30:58 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:30:58 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:30:58 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:30:58 2021 daemon.info pppd[12852]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:30:58 2021 daemon.info pppd[12852]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:30:58 2021 daemon.notice pppd[12852]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:31:13 2021 daemon.warn pppd[12852]: Timeout waiting for PADO packets
+Sun Jul 11 01:31:13 2021 daemon.err pppd[12852]: Unable to complete PPPoE Discovery
+Sun Jul 11 01:31:13 2021 daemon.info pppd[12852]: Exit.
+Sun Jul 11 01:31:13 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:31:13 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:31:13 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:31:13 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:31:13 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:31:13 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:31:13 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:31:13 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:31:13 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:31:13 2021 daemon.info pppd[13211]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:31:13 2021 daemon.info pppd[13211]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:31:14 2021 daemon.notice pppd[13211]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:31:24 2021 daemon.info pppd[13211]: PPP session is 18140
+Sun Jul 11 01:31:24 2021 daemon.warn pppd[13211]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:31:24 2021 kern.info kernel: [  355.580997] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:31:24 2021 daemon.info pppd[13211]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:31:24 2021 daemon.info pppd[13211]: Using interface pppoe-wan
+Sun Jul 11 01:31:24 2021 daemon.notice pppd[13211]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:31:24 2021 daemon.info pppd[13211]: syncppp not active
+Sun Jul 11 01:31:24 2021 daemon.notice pppd[13211]: Modem hangup
+Sun Jul 11 01:31:24 2021 daemon.notice pppd[13211]: Connection terminated.
+Sun Jul 11 01:31:24 2021 daemon.info pppd[13211]: Sent PADT
+Sun Jul 11 01:31:24 2021 daemon.info pppd[13211]: Exit.
+Sun Jul 11 01:31:24 2021 daemon.notice netifd: Interface 'wan' is now down
+Sun Jul 11 01:31:24 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:31:24 2021 daemon.notice netifd: Interface 'wan' is disabled
+Sun Jul 11 01:31:24 2021 daemon.notice netifd: Interface 'wan' is enabled
+Sun Jul 11 01:31:24 2021 daemon.notice netifd: Interface 'wan' is setting up now
+Sun Jul 11 01:31:25 2021 daemon.err insmod: module is already loaded - slhc
+Sun Jul 11 01:31:25 2021 daemon.err insmod: module is already loaded - ppp_generic
+Sun Jul 11 01:31:25 2021 daemon.err insmod: module is already loaded - pppox
+Sun Jul 11 01:31:25 2021 daemon.err insmod: module is already loaded - pppoe
+Sun Jul 11 01:31:25 2021 daemon.info pppd[13486]: Plugin rp-pppoe.so loaded.
+Sun Jul 11 01:31:25 2021 daemon.info pppd[13486]: RP-PPPoE plugin version 3.8p compiled against pppd 2.4.8
+Sun Jul 11 01:31:25 2021 daemon.notice pppd[13486]: pppd 2.4.8 started by root, uid 0
+Sun Jul 11 01:31:25 2021 daemon.info pppd[13486]: PPP session is 11277
+Sun Jul 11 01:31:25 2021 daemon.warn pppd[13486]: Connected to d0:07:ca:0d:83:07 via interface eth0.2
+Sun Jul 11 01:31:25 2021 kern.info kernel: [  356.775812] pppoe-wan: renamed from ppp0
+Sun Jul 11 01:31:25 2021 daemon.info pppd[13486]: Renamed interface ppp0 to pppoe-wan
+Sun Jul 11 01:31:25 2021 daemon.info pppd[13486]: Using interface pppoe-wan
+Sun Jul 11 01:31:25 2021 daemon.notice pppd[13486]: Connect: pppoe-wan <--> eth0.2
+Sun Jul 11 01:31:25 2021 daemon.info pppd[13486]: syncppp not active
+Sun Jul 11 01:31:25 2021 daemon.info pppd[13486]: CHAP authentication succeeded
+Sun Jul 11 01:31:25 2021 daemon.notice pppd[13486]: CHAP authentication succeeded
+Sun Jul 11 01:31:25 2021 daemon.notice pppd[13486]: peer from calling number D0:07:CA:0D:83:07 authorized
+Sun Jul 11 01:31:25 2021 daemon.notice pppd[13486]: local  IP address 10.228.188.221
+Sun Jul 11 01:31:25 2021 daemon.notice pppd[13486]: remote IP address 172.16.1.138
+Sun Jul 11 01:31:25 2021 user.err wsdd2[7292]: error: wsdd-mcast-v4: wsd_send_soap_msg: send: Network unreachable
+Sun Jul 11 01:31:25 2021 daemon.notice pppd[13486]: primary   DNS address 10.10.10.20
+Sun Jul 11 01:31:25 2021 daemon.notice pppd[13486]: secondary DNS address 114.114.114.114
+Sun Jul 11 01:31:25 2021 daemon.notice netifd: Network device 'pppoe-wan' link is up
+Sun Jul 11 01:31:25 2021 daemon.notice netifd: Interface 'wan' is now up
+Sun Jul 11 01:31:38 2021 user.notice firewall: Reloading firewall due to ifup of wan (pppoe-wan)
+Sun Jul 11 01:31:38 2021 user.notice root: iptvhelper: reloading
+Sun Jul 11 01:31:39 2021 user.notice root: iptvhelper: stopped
+Sun Jul 11 01:31:39 2021 user.notice root: iptvhelper: starting
+Sun Jul 11 01:31:40 2021 user.notice nlbwmon: Reloading nlbwmon due to ifup of wan (pppoe-wan)
+Mon Jul 12 07:04:01 2021 cron.err crond[6736]: time disparity of 1772 minutes detected
+Mon Jul 12 07:05:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:33 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:33 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:34 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:34 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:35 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:35 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:35 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:35 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:44 2021 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 24:fb:65:d2:ef:fc
+Mon Jul 12 07:05:44 2021 daemon.info hostapd: wlan0: STA 24:fb:65:d2:ef:fc IEEE 802.11: disassociated due to inactivity
+Mon Jul 12 07:05:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:45 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:45 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:45 2021 daemon.info hostapd: wlan0: STA 24:fb:65:d2:ef:fc IEEE 802.11: deauthenticated due to inactivity (timer DEAUTH/REMOVE)
+Mon Jul 12 07:05:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:50 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:50 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:05:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:05:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:34 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:34 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:34 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:34 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:50 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:50 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:06:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:06:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:07:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:07:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:08:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:08:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:00 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:02 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:02 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:33 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:33 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:58 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 static
+Mon Jul 12 07:09:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 6e:94:00:02:a2:53 off
+Mon Jul 12 07:09:59 2021 daemon.info hostapd: wlan1: STA 6e:94:00:02:a2:53 IEEE 802.11: authenticated
+Mon Jul 12 07:09:59 2021 daemon.info hostapd: wlan1: STA 6e:94:00:02:a2:53 IEEE 802.11: associated (aid 1)
+Mon Jul 12 07:09:59 2021 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 6e:94:00:02:a2:53
+Mon Jul 12 07:09:59 2021 daemon.notice hostapd: wlan0: Prune association for 6e:94:00:02:a2:53
+Mon Jul 12 07:09:59 2021 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 6e:94:00:02:a2:53
+Mon Jul 12 07:09:59 2021 daemon.info hostapd: wlan1: STA 6e:94:00:02:a2:53 RADIUS: starting accounting session 5B7FC41BB0C0947E
