@@ -12,3 +12,5 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/5.10/5.4/g' target/linux/ramips/Makefile
+curl -k https://raw.githubusercontent.com/immortalwrt/immortalwrt/openwrt-18.06/target/linux/ramips/dts/mt7621_netgear_r6800.dts > target/linux/ramips/dts/mt7621_netgear_r6800.dts
