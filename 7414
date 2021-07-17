@@ -1,0 +1,736 @@
+`Sat Jul 17 13:56:07 2021 daemon.notice hostapd: wlan0: interface state ENABLED->DISABLED
+Sat Jul 17 13:56:07 2021 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 9a:05:24:3f:d8:12
+Sat Jul 17 13:56:07 2021 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED c8:f7:42:31:c9:d4
+Sat Jul 17 13:56:07 2021 daemon.notice hostapd: wlan0: AP-DISABLED
+Sat Jul 17 13:56:07 2021 daemon.notice hostapd: wlan0: CTRL-EVENT-TERMINATING
+Sat Jul 17 13:56:07 2021 daemon.notice hostapd: nl80211: deinit ifname=wlan0 disabled_11b_rates=0
+Sat Jul 17 13:56:07 2021 kern.info kernel: [  946.018000] device wlan0 left promiscuous mode
+Sat Jul 17 13:56:07 2021 kern.info kernel: [  946.027285] br-lan: port 5(wlan0) entered disabled state
+Sat Jul 17 13:56:07 2021 daemon.notice netifd: Network device 'wlan0' link is down
+Sat Jul 17 13:56:08 2021 daemon.notice hostapd: Configuration file: /var/run/hostapd-phy0.conf (phy wlan0) --> new PHY
+Sat Jul 17 13:56:08 2021 kern.info kernel: [  947.192050] br-lan: port 5(wlan0) entered blocking state
+Sat Jul 17 13:56:08 2021 kern.info kernel: [  947.202794] br-lan: port 5(wlan0) entered disabled state
+Sat Jul 17 13:56:08 2021 kern.info kernel: [  947.214336] device wlan0 entered promiscuous mode
+Sat Jul 17 13:56:08 2021 daemon.notice hostapd: wlan0: interface state UNINITIALIZED->COUNTRY_UPDATE
+Sat Jul 17 13:56:09 2021 kern.info kernel: [  948.121753] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Sat Jul 17 13:56:09 2021 kern.info kernel: [  948.134966] br-lan: port 5(wlan0) entered blocking state
+Sat Jul 17 13:56:09 2021 kern.info kernel: [  948.145669] br-lan: port 5(wlan0) entered forwarding state
+Sat Jul 17 13:56:09 2021 daemon.notice hostapd: wlan0: interface state COUNTRY_UPDATE->ENABLED
+Sat Jul 17 13:56:09 2021 daemon.notice hostapd: wlan0: AP-ENABLED
+Sat Jul 17 13:56:10 2021 daemon.notice netifd: Network device 'wlan0' link is up
+Sat Jul 17 13:56:11 2021 cron.err crond[17913]: crond (busybox 1.33.1) started, log level 5
+Sat Jul 17 13:56:12 2021 cron.err crond[18150]: crond (busybox 1.33.1) started, log level 5
+Sat Jul 17 13:56:13 2021 daemon.info hostapd: wlan1: STA 3a:94:cf:e6:3f:7e IEEE 802.11: authenticated
+Sat Jul 17 13:56:13 2021 daemon.info hostapd: wlan1: STA 3a:94:cf:e6:3f:7e IEEE 802.11: associated (aid 1)
+Sat Jul 17 13:56:13 2021 daemon.notice hostapd: wlan1: AP-STA-CONNECTED 3a:94:cf:e6:3f:7e
+Sat Jul 17 13:56:13 2021 daemon.info hostapd: wlan1: STA 3a:94:cf:e6:3f:7e RADIUS: starting accounting session D4A68D2C3FCFF15C
+Sat Jul 17 13:56:13 2021 daemon.info hostapd: wlan1: STA 3a:94:cf:e6:3f:7e WPA: pairwise key handshake completed (RSN)
+Sat Jul 17 13:56:13 2021 daemon.notice hostapd: wlan1: EAPOL-4WAY-HS-COMPLETED 3a:94:cf:e6:3f:7e
+Sat Jul 17 13:56:14 2021 daemon.info hostapd: wlan0: STA c8:f7:42:31:c9:d4 IEEE 802.11: authenticated
+Sat Jul 17 13:56:14 2021 daemon.info hostapd: wlan0: STA c8:f7:42:31:c9:d4 IEEE 802.11: associated (aid 1)
+Sat Jul 17 13:56:14 2021 user.notice SQM: Stopping SQM on wan
+Sat Jul 17 13:56:14 2021 daemon.notice hostapd: wlan0: AP-STA-CONNECTED c8:f7:42:31:c9:d4
+Sat Jul 17 13:56:14 2021 daemon.info hostapd: wlan0: STA c8:f7:42:31:c9:d4 RADIUS: starting accounting session 654E39B7A378A122
+Sat Jul 17 13:56:14 2021 daemon.info hostapd: wlan0: STA c8:f7:42:31:c9:d4 WPA: pairwise key handshake completed (RSN)
+Sat Jul 17 13:56:14 2021 daemon.notice hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED c8:f7:42:31:c9:d4
+Sat Jul 17 13:56:14 2021 user.notice SQM: Starting SQM script: piece_of_cake.qos on wan, in: 102400 Kbps, out: 20480 Kbps
+Sat Jul 17 13:56:15 2021 user.notice SQM: piece_of_cake.qos was started on wan successfully
+Sat Jul 17 13:56:28 2021 daemon.notice hostapd: wlan1: AP-STA-DISCONNECTED 3a:94:cf:e6:3f:7e
+Sat Jul 17 13:56:30 2021 daemon.info hostapd: wlan0: STA 9a:05:24:3f:d8:12 IEEE 802.11: authenticated
+Sat Jul 17 13:56:30 2021 daemon.info hostapd: wlan0: STA 9a:05:24:3f:d8:12 IEEE 802.11: associated (aid 2)
+Sat Jul 17 13:56:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 13:56:30 2021 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 9a:05:24:3f:d8:12
+Sat Jul 17 13:56:30 2021 daemon.info hostapd: wlan0: STA 9a:05:24:3f:d8:12 RADIUS: starting accounting session 2EA3161B76A1F4AF
+Sat Jul 17 13:56:30 2021 daemon.info hostapd: wlan0: STA 9a:05:24:3f:d8:12 WPA: pairwise key handshake completed (RSN)
+Sat Jul 17 13:56:30 2021 daemon.notice hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 9a:05:24:3f:d8:12
+Sat Jul 17 13:58:32 2021 daemon.notice hostapd: Remove interface 'wlan1'
+Sat Jul 17 13:58:32 2021 daemon.notice hostapd: wlan1: interface state ENABLED->DISABLED
+Sat Jul 17 13:58:32 2021 daemon.notice hostapd: wlan1: AP-DISABLED
+Sat Jul 17 13:58:32 2021 daemon.notice hostapd: wlan1: CTRL-EVENT-TERMINATING
+Sat Jul 17 13:58:32 2021 daemon.notice hostapd: nl80211: deinit ifname=wlan1 disabled_11b_rates=0
+Sat Jul 17 13:58:32 2021 kern.info kernel: [ 1091.188605] device wlan1 left promiscuous mode
+Sat Jul 17 13:58:32 2021 kern.info kernel: [ 1091.197830] br-lan: port 6(wlan1) entered disabled state
+Sat Jul 17 13:58:33 2021 daemon.notice netifd: Network device 'wlan1' link is down
+Sat Jul 17 13:58:34 2021 daemon.notice hostapd: Configuration file: /var/run/hostapd-phy1.conf (phy wlan1) --> new PHY
+Sat Jul 17 13:58:34 2021 kern.info kernel: [ 1093.089037] br-lan: port 6(wlan1) entered blocking state
+Sat Jul 17 13:58:34 2021 kern.info kernel: [ 1093.099847] br-lan: port 6(wlan1) entered disabled state
+Sat Jul 17 13:58:34 2021 kern.info kernel: [ 1093.111592] device wlan1 entered promiscuous mode
+Sat Jul 17 13:58:34 2021 daemon.notice hostapd: wlan1: interface state UNINITIALIZED->COUNTRY_UPDATE
+Sat Jul 17 13:58:34 2021 daemon.notice hostapd: wlan1: interface state COUNTRY_UPDATE->HT_SCAN
+Sat Jul 17 13:58:35 2021 cron.err crond[20025]: crond (busybox 1.33.1) started, log level 5
+Sat Jul 17 13:58:36 2021 kern.info kernel: [ 1094.697204] IPv6: ADDRCONF(NETDEV_CHANGE): wlan1: link becomes ready
+Sat Jul 17 13:58:36 2021 kern.info kernel: [ 1094.710540] br-lan: port 6(wlan1) entered blocking state
+Sat Jul 17 13:58:36 2021 kern.info kernel: [ 1094.721265] br-lan: port 6(wlan1) entered forwarding state
+Sat Jul 17 13:58:36 2021 daemon.notice hostapd: wlan1: interface state HT_SCAN->ENABLED
+Sat Jul 17 13:58:36 2021 daemon.notice hostapd: wlan1: AP-ENABLED
+Sat Jul 17 13:58:36 2021 daemon.notice netifd: Network device 'wlan1' link is up
+Sat Jul 17 13:58:37 2021 cron.err crond[20270]: crond (busybox 1.33.1) started, log level 5
+Sat Jul 17 13:58:38 2021 user.notice SQM: Stopping SQM on wan
+Sat Jul 17 13:58:39 2021 user.notice SQM: Starting SQM script: piece_of_cake.qos on wan, in: 102400 Kbps, out: 20480 Kbps
+Sat Jul 17 13:58:40 2021 user.notice SQM: piece_of_cake.qos was started on wan successfully
+Sat Jul 17 14:01:02 2021 authpriv.info dropbear[21278]: Child connection from 192.168.1.161:13467
+Sat Jul 17 14:01:04 2021 authpriv.notice dropbear[21278]: Password auth succeeded for 'root' from 192.168.1.161:13467
+Sat Jul 17 14:01:26 2021 authpriv.info dropbear[21278]: Exit (root) from <192.168.1.161:13467>: Exited normally
+Sat Jul 17 14:03:55 2021 authpriv.info dropbear[21986]: Child connection from 192.168.1.161:9043
+Sat Jul 17 14:03:55 2021 authpriv.notice dropbear[21986]: Password auth succeeded for 'root' from 192.168.1.161:9043
+Sat Jul 17 14:11:57 2021 kern.info kernel: [ 1896.049266] mt7530 mdio-bus:1f lan1: Link is Down
+Sat Jul 17 14:11:57 2021 kern.info kernel: [ 1896.059214] br-lan: port 1(lan1) entered disabled state
+Sat Jul 17 14:11:57 2021 daemon.notice netifd: Network device 'lan1' link is down
+Sat Jul 17 14:12:02 2021 kern.info kernel: [ 1901.249802] mt7530 mdio-bus:1f lan1: Link is Up - 1Gbps/Full - flow control rx/tx
+Sat Jul 17 14:12:02 2021 kern.info kernel: [ 1901.264807] br-lan: port 1(lan1) entered blocking state
+Sat Jul 17 14:12:02 2021 kern.info kernel: [ 1901.275528] br-lan: port 1(lan1) entered forwarding state
+Sat Jul 17 14:12:02 2021 daemon.notice netifd: Network device 'lan1' link is up
+Sat Jul 17 14:13:49 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:13:52 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:13:55 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:13:58 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:01 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:04 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:07 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:10 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:13 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:16 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:19 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:22 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:25 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:28 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:31 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:34 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:34 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:37 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:40 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:44 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:47 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:50 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:53 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:56 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:14:59 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:01 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:04 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:07 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:09 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:12 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:15 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:19 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:22 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:24 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:25 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:28 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:32 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:35 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:38 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:41 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:43 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:47 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:50 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:53 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:56 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:15:59 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:02 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:05 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:08 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:11 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:14 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:17 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:20 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:23 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:26 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:29 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:32 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:35 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:38 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:41 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:44 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:47 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:50 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:52 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:55 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:56 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:16:59 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:17:02 2021 daemon.err uhttpd[4701]: uci: Entry not found
+Sat Jul 17 14:17:36 2021 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sat Jul 17 14:17:36 2021 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sat Jul 17 14:17:39 2021 daemon.info dnsmasq[25366]: Connected to system UBus
+Sat Jul 17 14:30:11 2021 authpriv.info dropbear[21986]: Exit (root) from <192.168.1.161:9043>: Exited normally
+Sat Jul 17 14:36:39 2021 kern.info kernel: [ 3378.039418] mt7530 mdio-bus:1f lan1: Link is Down
+Sat Jul 17 14:36:39 2021 kern.info kernel: [ 3378.049016] br-lan: port 1(lan1) entered disabled state
+Sat Jul 17 14:36:39 2021 daemon.notice netifd: Network device 'lan1' link is down
+Sat Jul 17 14:36:42 2021 kern.info kernel: [ 3381.160014] mt7530 mdio-bus:1f lan1: Link is Up - 1Gbps/Full - flow control rx/tx
+Sat Jul 17 14:36:42 2021 kern.info kernel: [ 3381.175267] br-lan: port 1(lan1) entered blocking state
+Sat Jul 17 14:36:42 2021 kern.info kernel: [ 3381.185715] br-lan: port 1(lan1) entered forwarding state
+Sat Jul 17 14:36:42 2021 daemon.notice netifd: Network device 'lan1' link is up
+Sat Jul 17 15:03:49 2021 daemon.info hostapd: wlan0: STA 44:c7:fc:57:6b:da IEEE 802.11: authenticated
+Sat Jul 17 15:03:49 2021 daemon.info hostapd: wlan0: STA 44:c7:fc:57:6b:da IEEE 802.11: associated (aid 3)
+Sat Jul 17 15:03:49 2021 daemon.notice hostapd: wlan0: AP-STA-CONNECTED 44:c7:fc:57:6b:da
+Sat Jul 17 15:03:49 2021 daemon.info hostapd: wlan0: STA 44:c7:fc:57:6b:da RADIUS: starting accounting session C576DFCDC9C938D7
+Sat Jul 17 15:03:49 2021 daemon.info hostapd: wlan0: STA 44:c7:fc:57:6b:da WPA: pairwise key handshake completed (RSN)
+Sat Jul 17 15:03:49 2021 daemon.notice hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 44:c7:fc:57:6b:da
+Sat Jul 17 15:04:02 2021 daemon.notice ttyd[6399]: HTTP / - 192.168.1.161
+Sat Jul 17 15:04:02 2021 daemon.notice ttyd[6399]: HTTP /token - 192.168.1.161
+Sat Jul 17 15:04:03 2021 daemon.notice ttyd[6399]: WS   /ws - 192.168.1.161, clients: 1
+Sat Jul 17 15:04:03 2021 daemon.notice ttyd[6399]: started process, pid: 27308
+Sat Jul 17 15:07:37 2021 daemon.notice ttyd[6399]: WS closed from 192.168.1.161, clients: 0
+Sat Jul 17 15:07:37 2021 daemon.notice ttyd[6399]: killing process 27308 with signal: 1 (SIGHUP)
+Sat Jul 17 15:07:37 2021 daemon.notice ttyd[6399]: process killed with signal 1 (SIGHUP), pid: 27308
+Sat Jul 17 15:07:42 2021 daemon.err uhttpd[4701]: ping: bad address 'cdn-shanghai.service.project-openwrt.eu.org'
+Sat Jul 17 15:07:44 2021 cron.err crond[27723]: crond (busybox 1.33.1) started, log level 8
+Sat Jul 17 15:07:45 2021 cron.err crond[27962]: crond (busybox 1.33.1) started, log level 8
+Sat Jul 17 15:08:31 2021 daemon.notice ttyd[6399]: HTTP / - 192.168.1.161
+Sat Jul 17 15:08:31 2021 daemon.notice ttyd[6399]: HTTP /token - 192.168.1.161
+Sat Jul 17 15:08:31 2021 daemon.notice ttyd[6399]: WS   /ws - 192.168.1.161, clients: 1
+Sat Jul 17 15:08:31 2021 daemon.notice ttyd[6399]: started process, pid: 28752
+Sat Jul 17 15:09:20 2021 authpriv.info dropbear[28762]: Child connection from 192.168.1.161:10171
+Sat Jul 17 15:09:21 2021 authpriv.notice dropbear[28762]: Password auth succeeded for 'root' from 192.168.1.161:10171
+Sat Jul 17 15:13:27 2021 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED 44:c7:fc:57:6b:da
+Sat Jul 17 15:13:27 2021 daemon.info hostapd: wlan0: STA 44:c7:fc:57:6b:da IEEE 802.11: disassociated due to inactivity
+Sat Jul 17 15:13:28 2021 daemon.info hostapd: wlan0: STA 44:c7:fc:57:6b:da IEEE 802.11: deauthenticated due to inactivity (timer DEAUTH/REMOVE)
+Sat Jul 17 15:13:34 2021 daemon.notice ttyd[6399]: WS closed from 192.168.1.161, clients: 0
+Sat Jul 17 15:13:34 2021 daemon.notice ttyd[6399]: killing process 28752 with signal: 1 (SIGHUP)
+Sat Jul 17 15:13:34 2021 daemon.notice ttyd[6399]: process killed with signal 1 (SIGHUP), pid: 28752
+Sat Jul 17 15:18:08 2021 daemon.err rmmod: module is not loaded
+Sat Jul 17 15:18:09 2021 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sat Jul 17 15:18:09 2021 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sat Jul 17 15:18:12 2021 daemon.info dnsmasq[30558]: Connected to system UBus
+Sat Jul 17 15:18:14 2021 cron.err crond[30952]: crond (busybox 1.33.1) started, log level 8
+Sat Jul 17 15:18:15 2021 cron.err crond[31187]: crond (busybox 1.33.1) started, log level 8
+Sat Jul 17 15:18:57 2021 daemon.err rmmod: module is not loaded
+Sat Jul 17 15:18:58 2021 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Sat Jul 17 15:18:58 2021 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Sat Jul 17 15:19:01 2021 daemon.info dnsmasq[32051]: Connected to system UBus
+Sat Jul 17 15:19:04 2021 cron.err crond[32439]: crond (busybox 1.33.1) started, log level 8
+Sat Jul 17 15:19:05 2021 cron.err crond[32674]: crond (busybox 1.33.1) started, log level 8
+Sat Jul 17 15:39:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:39:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:39:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:04 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:40:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:40:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:17 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:36 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:41:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:41:58 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:42:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:42:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:43:39 2021 daemon.notice hostapd: wlan0: AP-STA-DISCONNECTED c8:f7:42:31:c9:d4
+Sat Jul 17 15:43:41 2021 daemon.info hostapd: wlan0: STA c8:f7:42:31:c9:d4 IEEE 802.11: authenticated
+Sat Jul 17 15:43:41 2021 daemon.info hostapd: wlan0: STA c8:f7:42:31:c9:d4 IEEE 802.11: associated (aid 1)
+Sat Jul 17 15:43:41 2021 daemon.notice hostapd: wlan0: AP-STA-CONNECTED c8:f7:42:31:c9:d4
+Sat Jul 17 15:43:41 2021 daemon.info hostapd: wlan0: STA c8:f7:42:31:c9:d4 RADIUS: starting accounting session CC17B270DA904E98
+Sat Jul 17 15:43:41 2021 daemon.info hostapd: wlan0: STA c8:f7:42:31:c9:d4 WPA: pairwise key handshake completed (RSN)
+Sat Jul 17 15:43:41 2021 daemon.notice hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED c8:f7:42:31:c9:d4
+Sat Jul 17 15:44:33 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:44:36 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:44:36 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:44:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:44:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:44:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:44:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:44:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:44:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:44:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:44:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:44:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:44:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:44:58 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:44:58 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:02 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:45:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:45:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:26 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:26 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:50 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:46:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:46:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:17 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:17 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:47:58 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:47:58 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:17 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:37 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:41 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:43 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:44 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:45 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:45 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:45 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:45 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:46 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:50 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:50 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:52 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:48:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:48:59 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:00 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:00 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:00 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:02 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:02 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:11 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:12 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:13 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:14 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:17 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:17 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:22 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:25 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:26 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:26 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:26 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:26 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:26 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:26 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:27 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:28 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:29 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:30 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:31 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:32 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:34 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:34 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:35 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:35 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:35 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:35 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:38 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:39 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:40 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:42 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:47 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:48 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:49 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:51 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:53 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:54 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:55 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:56 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:49:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:49:57 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:00 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:01 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:02 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:02 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:03 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:04 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:04 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:04 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:05 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:06 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:07 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:08 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:09 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:10 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:15 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:16 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:17 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:17 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:18 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:19 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:20 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:21 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static
+Sat Jul 17 15:50:23 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 off
+Sat Jul 17 15:50:24 2021 daemon.notice hostapd: wlan0: STA-OPMODE-SMPS-MODE-CHANGED 9a:05:24:3f:d8:12 static`
