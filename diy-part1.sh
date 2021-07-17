@@ -21,4 +21,4 @@ echo 'src-git luci-app-smartdns https://github.com/pymumu/luci-app-smartdns' >>f
 echo 'src-git luci-app-jd-dailybonus https://github.com/jerrykuku/luci-app-jd-dailybonus' >>feeds.conf.default
 # Add a feed source Theme
 echo 'src-git luci-theme-argon_armygree https://github.com/YL2209/luci-theme-argon_armygreen' >>feeds.conf.default
-echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
+echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom' >>feeds.conf.default
