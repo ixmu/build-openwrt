@@ -13,9 +13,12 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
+# Add a feed source Plug-in
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git passwall https://github.com/pymumu/smartdns' >>feeds.conf.default
-echo 'src-git passwall https://github.com/pymumu/luci-app-smartdns' >>feeds.conf.default
-echo 'src-git passwall https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git smartdns https://github.com/pymumu/smartdns' >>feeds.conf.default
+echo 'src-git luci-app-smartdns https://github.com/pymumu/luci-app-smartdns' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+# Add a feed source Theme
+echo 'src-git luci-theme-argon_armygree https://github.com/YL2209/luci-theme-argon_armygreen' >>feeds.conf.default
+echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
