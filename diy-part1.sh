@@ -19,6 +19,7 @@ echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.co
 echo 'src-git smartdns https://github.com/pymumu/smartdns' >>feeds.conf.default
 echo 'src-git luci-app-smartdns https://github.com/pymumu/luci-app-smartdns' >>feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git luci-app-jd-dailybonus https://github.com/jerrykuku/luci-app-jd-dailybonus' >>feeds.conf.default
 # Add a feed source Theme
 echo 'src-git luci-theme-argon_armygree https://github.com/YL2209/luci-theme-argon_armygreen' >>feeds.conf.default
 echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
